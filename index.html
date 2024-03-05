@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+
+    <!-- fav icon -->
+    <link rel="icon" type="image/icon" href="image/favicon.PNG">
+
+    <!-- code for font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- swiper js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!-- code for linking css file-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <!-- header section -->
+        <header class="header">
+            <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> Grocery</a>
+            
+            <!-- nav bar -->
+            <nav class="navbar">
+                <a  href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#products">Products</a>
+                <a href="#categories">Categories</a>
+                <a  href="#reviews">Reviews</a>
+                <a href="#blogs">Blogs</a>
+
+            </nav>
+
+            <!-- nav bar icons -->
+            <div class="icons">
+                <div class="fa fa-bars" id="menu-btn"></div>
+                <div class="fa fa-shopping-cart" id="cart-btn"></div>
+                <div class="fa fa-search" id="search-btn"></div>
+                <div class="fa fa-user" id="login-btn"></div>
+            </div>
+
+            <form class="search-form">
+                <input type="search" id="search-box" placeholder="Search here">
+                <label for="search-box" class="fa fa-search"></label>
+            </form>
+
+            <!-- cart items UI -->
+            <div class="shopping-cart">
+            <!-- cart 1st item -->
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="image/cart-img-1.png">
+                    <div class="content">
+                        <h3>watermelon</h3>
+                        <span class="price">$4.99/-</span>
+                        <span class="quantity">Qty :1</span>
+                    </div>
+                </div>
+                <!-- 2nd item -->
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="image/cart-img-2.png">
+                    <div class="content">
+                        <h3>Onion</h3>
+                        <span class="price">$4.99/-</span>
+                        <span class="quantity">Qty :1</span>
+                
+                    </div>
+                </div>
+
+                <!-- 3rd item -->
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="image/cart-img-3.png">
+                    <div class="content">
+                        <h3>Chicken</h3>
+                        <span class="price">$4.99/-</span>
+                        <span class="quantity">Qty :1</span>
+                
+                    </div>
+                </div>
+
+                <!-- total price -->
+                <div class="total">Total : $18.97/-</div>
+
+                <a href="#" class="btn">Checkout</a>
+    
+            </div>
+    
+        </header>
+    <!-- header section -->
+
+    <!-- banner/home section -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Fresh And <span>Organic</span> Products For You</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                book.</p>
+
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
+    <!-- banner/home section -->
+
+
+    <!-- feature section -->
+        <section class="features" id="features">
+            <h1 class="heading">our <span>features</span></h1>
+        
+
+            <div class="box-container">
+                
+                <!-- 1st feature -->
+                <div class="box">
+                    <img src="image/feature-img-1.png">
+                    <h3>Fresh and Organic</h3>
+
+                    <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+                <!-- 2nd feature -->
+                <div class="box">
+                    <img src="image/feature-img-2.png">
+                    <h3>Fast and Free Delivery</h3>
+                
+                    <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+
+                <!-- 3rd feature -->
+                <div class="box">
+                    <img src="image/feature-img-3.png">
+                    <h3>Accept Card payments also</h3>
+                
+                    <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </section>
+    <!-- feature section -->
+    
+    <!-- our product section -->
+        <section class="products" id="products">
+            <h1 class="heading"> Our <span>Products</span> </h1>
+
+            <!-- 1st slider -->
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+
+                    <!-- 1st item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-1.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+
+                    <!-- 2nd item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-2.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+
+                    <!-- 3rd item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-3.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+
+                    <!-- 4th item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-4.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd slider -->
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+            
+                    <!-- 1st item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-4.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+            
+                    <!-- 2nd item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-5.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+            
+                    <!-- 3rd item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-6.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+            
+                    <!-- 4th item -->
+                    <div class="swiper-slide box">
+                        <img src="image/product-7.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price">
+                            $12.99- $15.99/-
+                        </div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn"> Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    <!-- our product section -->
+
+    <!-- categories section  -->
+        <section class="categories" id="categories">
+            <h1 class="heading"> product <span>categories</span></h1>
+            <div class="box-container">
+                <!-- 1st category -->
+                <div class="box">
+                    <img src="image/cat-1.png">
+                    <h3>Vegetables</h3>
+                    <p>Upto 45% off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <!-- 2nd category -->
+                <div class="box">
+                    <img src="image/cat-2.png">
+                    <h3>Fruits</h3>
+                    <p>Upto 35% off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <!-- 3rd category -->
+                <div class="box">
+                    <img src="image/cat-3.png">
+                    <h3>Cold Drinks</h3>
+                    <p>Upto 65% off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <!-- 4th category -->
+                <div class="box">
+                    <img src="image/cat-4.png">
+                    <h3>Meats</h3>
+                    <p>Upto 15% off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    <!-- categories section  -->
+
+    <!-- customers reviews section -->
+        <section class="reviews" id="reviews">
+            <h1 class="heading"> customer's <span>reviews</span></h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <!-- 1st review -->
+                    <div class="swiper-slide box">
+                        <img src="image/pic-1.png">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                        layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                        'Content here, content here', making it look like readable English.</p>
+
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <!-- 2nd review -->
+                    <div class="swiper-slide box">
+                        <img src="image/pic-2.png">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+                            its
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                            to using
+                            'Content here, content here', making it look like readable English.</p>
+                    
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <!-- 3rd review -->
+                    <div class="swiper-slide box">
+                        <img src="image/pic-3.png">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+                            its
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                            to using
+                            'Content here, content here', making it look like readable English.</p>
+                    
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <!-- 4th review -->
+                    <div class="swiper-slide box">
+                        <img src="image/pic-4.png">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+                            its
+                            layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                            to using
+                            'Content here, content here', making it look like readable English.</p>
+                    
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    <!-- customers reviews section -->
+
+    <!-- our blogs section -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading"> our <span>Blogs</span></h1>
+
+            <div class="box-container">
+                <!-- 1st blog -->
+                <div class="box">
+                    <img src="image/blog-1.jpg">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fa fa-user"> By user</i>
+                                <i class="fa fa-calendar"> 23rd sep, 2023</i>
+                            </a>
+                        </div>
+                        <h3>Fresh and organic Vegetables</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its
+                        layout.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <!-- 2nd blog -->
+                <div class="box">
+                    <img src="image/blog-2.jpg">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fa fa-user"> By user</i>
+                                <i class="fa fa-calendar"> 23rd sep, 2023</i>
+                            </a>
+                        </div>
+                        <h3>Fresh and organic Vegetables</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+                            at its
+                            layout.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+
+                <!-- 3rd blog -->
+                <div class="box">
+                    <img src="image/blog-3.jpg">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fa fa-user"> By user</i>
+                                <i class="fa fa-calendar"> 23rd sep, 2023</i>
+                            </a>
+                        </div>
+                        <h3>Fresh and organic Vegetables</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+                            at its
+                            layout.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- our blogs section -->
+
+    <!-- footer section -->
+        <section class="footer">
+            <div class="box-container">
+
+                <!-- 1st content -->
+                <div class="box">
+                    <h3> Grocery <i class="fa fa-shopping-basket"></i></h3>
+                    <p>Feel Free To Follow Us on Our Social Media Handler All The Links Are Given Below.</p>
+                    <div class="share">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+
+                </div>
+
+                <!-- 2nd content -->
+                <div class="box">
+                    <h3> Contact Info</h3>
+                    <a href="#" class="links"><i class="fa fa-phone"></i>+91-7841961074</a>
+                    <a href="#" class="links"><i class="fa fa-phone"></i>+91-7841945074</a>
+                    <a href="#" class="links"><i class="fa fa-envelope"></i> abc@gmail.com</a>
+                    <a href="#" class="links"><i class="fa fa-map-marker"></i> Pune, Maharashtra -411039</a>
+                
+                </div>
+
+                <!-- 3rd content -->
+                <div class="box">
+                    <h3> Quick Links</h3>
+                    <a href="#home" class="links" id="home"><i class="fa fa-arrow-right"></i> Home</a>
+                    <a href="#features" class="links" id="features"><i class="fa fa-arrow-right"></i> Features</a>
+                    <a href="#products" class="links" id="products"><i class="fa fa-arrow-right"></i> Products</a>
+                    <a href="#categories" class="links" id="categories"><i class="fa fa-arrow-right"></i> Categories</a>
+                    <a href="#reviews" class="links" id="reviews"><i class="fa fa-arrow-right"></i> Reviews</a>
+                    <a href="#blogs" class="links" id="blogs"><i class="fa fa-arrow-right"></i> Blogs</a>
+                </div>
+
+                <!-- 4th content -->
+                <div class="box">
+                    <h3> Newsletter</h3>
+                    <p>Subscribe For Latest Updates</p>
+                    <input type="email" placeholder="email" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                    <img src="image/payment.png" class="payment-img">
+                </div>
+            </div>
+
+            <!-- credit creation -->
+            <div class="credit">
+                Created By <span>Avishkar Kumbhar</span> | All Rights Reserved
+            </div>
+        </section>
+    <!-- footer section -->
+
+    <!-- swiper js script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <!-- linking to javascript file -->
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
